@@ -2,16 +2,15 @@
 <body>
 
 <?php
-$a = 5;
-$b = 10;
-
-function myTest()
-{
-global $a, $b;
-$b = $a + $b;
-} 
-
-myTest();
-echo $b;
+$d=date("D");
+if ($d=="Fri")
+  {
+  echo "Have a nice weekend!";
+  }
+else
+  {
+  echo "Have a nice day!";
+  }
 ?>
+
 </html>
