@@ -3,7 +3,7 @@
 
 <?php
 $d=date("D");
-if ($d=="Fri")
+if ($d=="Sat")
   {
   echo "Have a nice weekend!";
   }
