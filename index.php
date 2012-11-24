@@ -2,8 +2,16 @@
 <body>
 
 <?php
-echo "Hello World";
-?>
+$a = 5;
+$b = 10;
 
-</body>
+function myTest()
+{
+global $a, $b;
+$b = $a + $b;
+} 
+
+myTest();
+echo $b;
+?>
 </html>
